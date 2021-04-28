@@ -1,4 +1,6 @@
-## Get started
+This repo is part of the LoCobSS research project. More details about the project and dependencies to other repos can be found [here](https://github.com/sebastian-meier/LoCobSS-documentation).
+
+## Climate change risks in Germany
 
 Install the dependencies...
 
