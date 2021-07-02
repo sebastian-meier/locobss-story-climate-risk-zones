@@ -144,6 +144,9 @@
             <span class="item-text">{@html item.text}</span>
           </div>
         {/each}
+        <div class="item-wrapper" style="width: 100%;">
+          <span class="item-text">{@html appendix.privacy}</span>
+        </div>
       </div>
     </div>
   </div>

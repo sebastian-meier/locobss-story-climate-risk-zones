@@ -54,6 +54,12 @@
     color: $color-main;
     margin: 0 auto;
   }
+  
+  p.addition {
+    color: $color-main-60;
+    line-height: 150%;
+    font-size: $font-size-xs;
+  }
 </style>
 
 <div class="container">
@@ -67,6 +73,11 @@
     unsere Tier- und Pflanzenwelt, was zum Beispiel direkte Auswirkungen 
     auf die Land- und Forstwirtschaft hat. Erfahre mehr darüber, was dies im Detail 
     für deine spezifische Region bedeutet:
+    <p class="addition">
+      <strong>Privatsphäre geht vor:</strong>
+      Die von dir hier angegebenen Information werden von uns nicht gespeichert.
+      Diese Seite nutzt keine Cookie- oder Tracking-Technologien.
+    </p>
   </Section>
   <!-- <Animation /> -->
   <Anchor anchorId={steps.szenarien} />
