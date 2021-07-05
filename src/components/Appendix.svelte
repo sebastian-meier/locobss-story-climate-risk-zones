@@ -16,7 +16,7 @@
       alt: 'Link zum Code auf Github',
       maxWidth: '65px',
       text:
-        'Der Code zum Projekt ist auf <a target="_blank" href="https://github.com/">GitHub</a> zu finden.',
+        'Der Code zum Projekt ist auf <a target="_blank" href="https://github.com/sebastian-meier/locobss-story-climate-risk-zones">GitHub</a> zu finden.',
       width: 'calc(50% - 1em)',
     },
     {
