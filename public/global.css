@@ -58,7 +58,10 @@ ul {
   padding-left: 23px;
 }
 a.mapboxgl-ctrl-logo {
-  display: none !important;
+  display: block !important;
+  text-decoration: none;
+  outline: none;
+  border-bottom: none;
 }
 .mapboxgl-ctrl-scale {
   font-family: 'Post Grotesk Regular';

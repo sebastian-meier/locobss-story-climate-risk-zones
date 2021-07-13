@@ -17,7 +17,7 @@
     paintLineBuff,
     paintLineFluvialFlood,
   } from './constants'
-  import { mapbox, key } from './mapbox.js'
+  import { mapbox, key, Attribution } from './mapbox.js'
   import bbox from '@turf/bbox'
 
   export let data
@@ -47,8 +47,11 @@
         doubleClickZoom: false,
         scrollZoom: false,
         attributionControl: false,
+        logoPosition: 'top-left',
         style: 'mapbox://styles/juli84/ckmevp79nc2oy17lhgal0ps87',
       })
+
+      map.addControl(new Attribution(), 'top-right')
 
       map.on('movestart', () => {
         isMoving = true

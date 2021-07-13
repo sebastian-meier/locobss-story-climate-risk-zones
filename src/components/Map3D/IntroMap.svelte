@@ -1,6 +1,6 @@
 <script>
   import { onMount, setContext } from 'svelte'
-  import { mapbox, key } from './mapbox.js'
+  import { mapbox, key, Attribution } from './mapbox.js'
   
   let map
 
@@ -23,6 +23,7 @@
         dragPan: false,
         scrollZoom: false,
         attributionControl: false,
+        logoPosition: 'top-left',
         style: 'mapbox://styles/juli84/ckmevp79nc2oy17lhgal0ps87'
       }).fitBounds(
         [
@@ -38,6 +39,8 @@
           },
         }
       )
+
+      map.addControl(new Attribution(), 'top-right')
 
       map.on('load', () => {
         map.setLayoutProperty('hochwasser', 'visibility', 'visible')
